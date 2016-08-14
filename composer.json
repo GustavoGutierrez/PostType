@@ -1,0 +1,42 @@
+{
+    "name": "wp_builder_app/posttype",
+    "description": "The easy posttype.",
+    "keywords": ["library", "posttype", "metabox", "taxonomy"],
+    "license": "MIT",
+    "homepage": "http://gustavogutierrez.co",
+    "support": {
+        "issues": "https://github.com/GustavoGutierrez/posttype/issues",
+        "source": "https://github.com/GustavoGutierrez/posttype"
+    },
+    "authors": [
+        {
+            "name": "Gustavo Gutierrez",
+            "email": "gustavogutierrezmercado@gmail.com"
+        }
+    ],
+    "require-dev": {
+
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/var-dumper": "2.8.*|3.0.*"
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "files": [
+            "Helpers/Helpers.php"
+        ],
+        "psr-4": {
+            "PostType\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/GustavoGutierrez/posttype"
+        }
+    ]
+}
