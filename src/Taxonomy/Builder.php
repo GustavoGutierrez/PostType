@@ -217,8 +217,8 @@ class Builder {
             'search_items' => __('Search', 'wba_taxonomy') . ' ' . $singular,
             'not_found' => __('Not Found', 'wba_taxonomy'),
             'no_terms' => __('No', 'wba_taxonomy') . ' ' . $singular,
-            'items_list' => ucfirst(($singular) . ' ' . __('list', 'wba_taxonomy'),
-            'items_list_navigation' => ucfirst($singular) . ' ' . __('list navigation', 'wba_taxonomy')
+            'items_list' => ucfirst($singular) . ' ' . __('list', 'wba_taxonomy'),
+            'items_list_navigation'=> ucfirst($singular) . ' ' . __('list navigation', 'wba_taxonomy')
         );
 
         return true;
