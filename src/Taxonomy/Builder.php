@@ -180,7 +180,7 @@ class Builder {
 	 *
 	 * @return self
 	 */
-	private function _setLabel(array $label) {
+	private function _setLabel($label) {
 		if ($label && is_array($label)) {
 			$this->label = $label;
 			return true;
