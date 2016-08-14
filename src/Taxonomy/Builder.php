@@ -213,7 +213,7 @@ class Builder {
             'separate_items_with_commas' => __('Separate', 'wba_taxonomy') . strtolower($singular) . ' ' . __('with commas', 'wba_taxonomy'),
             'add_or_remove_items' => __('Add or remove', 'wba_taxonomy') . strtolower($singular),
             'choose_from_most_used' => __('Choose from the most used', 'wba_taxonomy'),
-            'popular_items' => ucfirst(($plural),
+            'popular_items' => ucfirst($plural),
             'search_items' => __('Search', 'wba_taxonomy') . ' ' . $singular,
             'not_found' => __('Not Found', 'wba_taxonomy'),
             'no_terms' => __('No', 'wba_taxonomy') . ' ' . $singular,
