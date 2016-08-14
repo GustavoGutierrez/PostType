@@ -5,3 +5,5 @@
 ![Version](https://img.shields.io/badge/version-beta-orange.svg?style=flat-square)
 
 Libreria para la creación de post types, metabox y taxonomias.
+
+Nos encontramos en fase de desarrollo aun no disponible para su uso
