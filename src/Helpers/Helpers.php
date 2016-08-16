@@ -5,14 +5,11 @@
  */
 if (!function_exists('lang_post_type_domain')) {
 	function lang_post_type_domain() {
-		load_textdomain('wba_posttype', dirname(dirname(__FILE__)) . '/PostType/languages');
-		//load_theme_textdomain('wba_posttype', dirname(dirname(__FILE__)) . '/PostType/languages');
-		//load_plugin_textdomain('wba_posttype', false, dirname(dirname(__FILE__)) . '/PostType/languages');
-
-		load_textdomain('wba_taxonomy', dirname(dirname(__FILE__)) . '/Taxonomy/languages');
+		load_textdomain('wba_posttype', dirname(dirname(__FILE__)) . '/PostType/languages/' . get_locale() . '.mo');
+		load_textdomain('wba_taxonomy', dirname(dirname(__FILE__)) . '/Taxonomy/languages/' . get_locale() . '.mo');
 	}
 }
-add_action('init', 'lang_post_type_domain', 0);
+add_filter('init', 'lang_post_type_domain', 0);
 
 if (!function_exists('posttype')) {
 	function posttype($singular, $plural = NULL, $options = NULL, $labels = NULL) {
