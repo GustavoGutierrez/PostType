@@ -1,7 +1,7 @@
 {
     "name": "wp_builder_app/posttype",
     "description": "The easy posttype.",
-    "keywords": ["library", "posttype", "metabox", "taxonomy"],
+    "keywords": ["library", "posttype", "metaboxes","options", "taxonomy", "wordpress"],
     "license": "MIT",
     "homepage": "http://gustavogutierrez.co",
     "support": {
@@ -20,7 +20,8 @@
     "require": {
         "php": ">=5.5.9",
         "symfony/var-dumper": ">=2.8",
-        "mustache/mustache": ">=2.10"
+        "mustache/mustache": "2.10",
+        "webdevstudios/cmb2":"v2.2.2.1"
     },
     "autoload": {
         "classmap": [
